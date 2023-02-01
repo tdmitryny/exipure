@@ -1,0 +1,111 @@
+.Offer__container {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.Offer__inner {
+  padding: 0 4.8rem;
+}
+
+.Offer {
+  max-width: 82rem;
+  min-height: 32rem;
+  background: #f9f8f8;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 2.7rem 2.6rem 2.8rem 6.1rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Bottles__img {
+  width: 80%;
+}
+
+.Six__Bottles {
+  font-size: 3.2rem;
+  color: #1d4e45;
+  font-weight: 600;
+}
+
+.Supply {
+  font-size: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+
+.Free__Shipping,
+.Bonuses {
+  font-size: 2.4rem;
+}
+
+.Shipping {
+  padding-bottom: 6.2rem;
+}
+
+.Sale {
+  font-size: 3.6rem;
+  text-decoration: underline;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Secure {
+  padding: 4.8rem 0 3.2rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Secure img {
+  display: block;
+  width: 40%;
+}
+/* 909 */
+@media (max-width: 56em) {
+  .Secure img {
+    display: block;
+    width: 20%;
+    height: 20%;
+  }
+
+  .Offer {
+    flex-direction: column;
+    align-items: center;
+    padding: 2.7rem 2.6rem 2.8rem 2.0999999999999996rem;
+  }
+  .Bottles {
+    text-align: center;
+  }
+
+  .Offer__column {
+    text-align: center;
+  }
+  .Sale {
+    margin-top: 2rem;
+  }
+
+  .Secure img {
+    width: 70%;
+  }
+}
+
+/* .Six__Bottles {
+  font-size: 2.2rem;
+  color: #1d4e45;
+  font-weight: 600;
+}
+
+.Supply {
+  font-size: 1.4rem;
+}
+
+.Free__Shipping,
+.Bonuses {
+  font-size: 1.4rem;
+}
+
+.Sale {
+  font-size: 2.6rem;
+} */

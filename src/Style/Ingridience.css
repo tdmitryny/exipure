@@ -1,0 +1,55 @@
+.Section__ingridience {
+  padding: 4.8rem 0 3.2rem 0;
+  background-color: #95b1a0;
+}
+
+.Section__inner {
+  padding: 0 4.8rem;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.Title__ingridience {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.Text__parag {
+  font-size: 2rem;
+  color: #000;
+  padding-bottom: 2.5rem;
+  line-height: 3rem;
+}
+
+.Text__parag span {
+  font-weight: 700;
+}
+/* BELOW 1175px */
+@media (max-width: 73em) {
+  .Section__inner {
+    width: 91%;
+  }
+}
+
+@media (max-width: 55rem) {
+  .Text__parag {
+    font-size: 1.5rem;
+  }
+}
+
+/* BELOW 520px */
+
+@media (max-width: 32rem) {
+  .Title__ingridience {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .Section__inner {
+    padding: 0 2.8rem;
+  }
+}

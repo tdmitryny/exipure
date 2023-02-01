@@ -1,0 +1,82 @@
+.Section__hero {
+  padding: 4.8rem 0 3.2rem 0;
+  background-color: #95b1a0;
+}
+
+.Hero {
+  padding: 0 4.8rem;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.Hero__block {
+  display: flex;
+  gap: 5.9rem;
+}
+
+.Hero__img {
+  width: 45%;
+  height: 45%;
+}
+.Here__second-block {
+  max-width: 45.1rem;
+}
+
+.Hero__title {
+  font-size: 4.8rem;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 0.8rem;
+}
+
+.Hero__para {
+  font-size: 2rem;
+  color: black;
+  font-weight: 200;
+  line-height: 3rem;
+  padding-bottom: 3.6rem;
+}
+
+.Hero__para span {
+  font-weight: 700;
+}
+
+/* BELOW 888px */
+@media (max-width: 55rem) {
+  .Hero__title {
+    font-size: 3.8rem;
+  }
+
+  .Hero__para {
+    font-size: 1.5rem;
+  }
+}
+
+/* BELOW 688px */
+@media (max-width: 43rem) {
+  .Hero__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Hero__img {
+    width: 65%;
+    height: 65%;
+  }
+}
+
+/* BELOW 400px */
+@media (max-width: 25rem) {
+  .Hero__title {
+    font-size: 2.8rem;
+  }
+
+  .Hero__img {
+    width: 65%;
+    height: 65%;
+  }
+
+  .btn__hero {
+    background-color: blue;
+    font-size: 23rem;
+  }
+}

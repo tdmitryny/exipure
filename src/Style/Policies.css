@@ -1,0 +1,26 @@
+.Policy__container {
+  color: #000;
+  padding: 5rem 0 10rem;
+}
+.Policy__inner {
+  padding: 0 3.8rem;
+  max-width: 85.7rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Policy__title {
+  font-size: 4.8rem;
+  margin-bottom: 10.2rem;
+}
+
+.Policy__par {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.Policy__par span {
+  font-weight: 600;
+}
