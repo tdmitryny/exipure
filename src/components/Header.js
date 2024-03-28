@@ -1,5 +1,5 @@
 import '../Style/Header.css';
-import logo from '../images/logo.png';
+import logo from '../images/logo.jpg';
 import Btn from './Btn';
 import {Link} from 'react-router-dom';
 
@@ -16,7 +16,7 @@ const Header = () => {
           <li className='List'><a className='List__link' href='https://hop.clickbank.net/?affiliate=tdmitry211&vendor=exipure&pg=spd&sr=1'>Learn more</a></li>
         </ul>
       </nav>
-      <Btn />
+      
     </header>
   )
 }

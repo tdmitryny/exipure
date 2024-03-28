@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 function PrivacyPolicy() {
   return (
     <>
-       <Header />
+       
         <div className='Policy__container'>
          <div className='Policy__inner'>
           <h2 className='Policy__title'>Privacy Policy</h2>

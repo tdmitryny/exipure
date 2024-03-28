@@ -10,8 +10,12 @@ function Footer() {
 
         </div>
             <p className='Copyright'>
-            ©Copyright 2022 5amworkout.com All Rights Reserved.
+            
+            <p className='disc'>
+            This website participates in various affiliate programs, which means that We may earn a commission from qualifying purchases made through links on this site. This commission comes at no additional cost to you and helps support the maintenance and development of this website.
             </p>
+            </p>
+            
 
     </section>
   )

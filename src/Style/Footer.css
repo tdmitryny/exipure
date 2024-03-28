@@ -10,6 +10,12 @@
   align-items: center;
 }
 
+
+.disc{
+  font-size: 14px;
+  width:30%;
+  text-align: center;
+}
 .Menu__bottom {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

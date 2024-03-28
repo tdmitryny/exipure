@@ -16,6 +16,15 @@
   display: block;
 }
 
+.para{
+  font-size: 13px;
+  padding-top: 10px;
+  width: 80%;
+  font-style: italic;
+  text-align: center;
+  
+}
+
 .btn::after {
   position: absolute;
   content: "";

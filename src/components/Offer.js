@@ -22,13 +22,11 @@ function Offer() {
                </div>
                <Btn className="Btn__style"/>
             </div>
-        <p className='Sale'>95%OFF</p>
+        <p className='Sale'>65%OFF</p>
         </div>
         </div>
 
-        <div className='Secure'>
-            <img src={secure} alt='Secure'/>
-        </div> 
+        
         
     </div>
   )

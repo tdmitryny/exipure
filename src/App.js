@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      
       <Introduction day={date}/>
       <SectionHero />
       <WorkWith />
